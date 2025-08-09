@@ -1,38 +1,32 @@
-{{if s3.debug:}}{{# Running in Debug mode, so we want each script to download separately & to use the uncompressed versions }}
-<script>//<![CDATA[
-function s3_debug(message, value) {
-    if (undefined === value) {
-        console.debug('s3_debug: ' + message);
-    } else {
-        console.debug('s3_debug: ' + message + ': ' + value);
-    }
-}
-//]]></script>
-{{if s3.cdn:}}
- {{# For Sites Hosted on the Public Internet, using Google's version of jQuery should provide better performance }}
- <script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.2/jquery.js"></script>
- <script src="//code.jquery.com/jquery-migrate-3.4.0.js"></script>
- {{else:}}
- <script src="/{{=appname}}/static/scripts/jquery-3.6.2.js"></script>
- <script src="/{{=appname}}/static/scripts/jquery-migrate-3.4.0.js"></script>
+{{# Web2Py Core JavaScript Files #}}
+<script src="/{{=appname}}/static/scripts/web2py_ajax.js" type="text/javascript"></script>
+
+{{# jQuery UI Files #}}
+{{if s3.ui.jquery_ui:}}
+    <link href="/{{=appname}}/static/styles/ui/ui.css" rel="stylesheet" type="text/css" />
+    <script src="/{{=appname}}/static/scripts/ui/jquery-ui.min.js" type="text/javascript"></script>
 {{pass}}
-{{=s3base.include_debug_js()}}
-{{else:}}{{# Running in Production mode, so we want fewer compressed scripts to download}}
-<script>function s3_debug(){}</script>
-{{if s3.cdn:}}{{# For Sites Hosted on the Public Internet, using a CDN should provide better performance}}
- <script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.2/jquery.min.js"></script>
+
+{{# jQuery Plugins #}}
+{{if s3.ui.datatables:}}
+    <link href="/{{=appname}}/static/styles/datatables.css" rel="stylesheet" type="text/css" />
+    <script src="/{{=appname}}/static/scripts/jquery.dataTables.min.js" type="text/javascript"></script>
+{{pass}}
+
+{{# Foundation Framework #}}
+{{if s3.ui.foundation:}}
+    <link href="/{{=appname}}/static/styles/foundation.css" rel="stylesheet" type="text/css" />
+    <script src="/{{=appname}}/static/scripts/foundation.min.js" type="text/javascript"></script>
+{{pass}}
+
+{{# S3 Core JavaScript #}}
+<script src="/{{=appname}}/static/scripts/S3/s3.min.js" type="text/javascript"></script>
+
+{{# Built by /static/scripts/tools/build.humanityfirst.py }}
+{{if s3.ui.minimized:}}
+    <script src="/{{=appname}}/static/scripts/humanityfirst.min.js" type="text/javascript"></script>
 {{else:}}
- <script src="/{{=appname}}/static/scripts/jquery-3.6.2.min.js"></script>
+    {{# Individual script files for development #}}
+    <script src="/{{=appname}}/static/scripts/S3/s3.ui.js" type="text/javascript"></script>
+    <script src="/{{=appname}}/static/scripts/S3/s3.gis.js" type="text/javascript"></script>
 {{pass}}
-{{# Built by /static/scripts/tools/build.sahana.py }}
-<script src="/{{=appname}}/static/scripts/S3/S3.min.js"></script>
-{{pass}}
-{{# Scripts which need pre-processing by server must be called in-line }}
-<script>//<![CDATA[
-{{# Translation Strings }}
-{{include "l10n.js"}}
-{{# Global variables }}
-S3.Ap='/{{=appname}}'
-{{if s3.direction == "rtl":}}S3.rtl=true{{else:}}S3.rtl=false{{pass}}
-{{if s3.interactive:}}S3.interactive=true{{else:}}S3.interactive=false{{pass}}
-//]]></script>
