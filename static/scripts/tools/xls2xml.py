@@ -80,7 +80,7 @@ def xls2tree(source,
     # Shortcuts
     SubElement = etree.SubElement
 
-    DEFAULT_SHEET_NAME = "SahanaData"
+    DEFAULT_SHEET_NAME = "HumanityFirstData"
 
     # Root element
     root = etree.Element(TABLE)

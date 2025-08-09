@@ -220,7 +220,7 @@
 'The Organization Registry keeps track of all the relief organizations working in the area.': 'The Organisation Registry keeps track of all the relief organisations working in the area.',
 'The default Organization for whom this person is acting.': 'The default Organisation for whom this person is acting.',
 'The default Organization for whom you are acting.': 'The default Organisation for whom you are acting.',
-'The synchronization module allows the synchronization of data resources between Sahana Eden instances.': 'The synchronisation module allows the synchronisation of data resources between Sahana Eden instances.',
+'The synchronization module allows the synchronization of data resources between HumanityFirst instances.': 'The synchronisation module allows the synchronisation of data resources between HumanityFirst instances.',
 'This shipment has already been received & subsequently canceled.': 'This shipment has already been received & subsequently cancelled.',
 'This shipment has not been received - it has NOT been canceled because it can still be edited.': 'This shipment has not been received - it has NOT been cancelled because it can still be edited.',
 'This shipment has not been sent - it has NOT been canceled because it can still be edited.': 'This shipment has not been sent - it has NOT been cancelled because it can still be edited.',

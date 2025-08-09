@@ -21,7 +21,7 @@ Contact: winfield.littel@proton.me
    Building Applications <dev/index>
    Reference Guide <reference/index>
    Deploying Applications <deploy/index>
-   Extending Eden <extend/index>
+   Extending HumanityFirst <extend/index>
 
 Indices and tables
 ==================
