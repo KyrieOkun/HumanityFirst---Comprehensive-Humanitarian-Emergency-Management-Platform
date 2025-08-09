@@ -1,7 +1,7 @@
 /**
  * jQuery UI Widget for auth_Consent
  *
- * @copyright 2019 (c) Sahana Software Foundation
+ * @copyright 2019 (c) White Nash
  * @license MIT
  *
  * requires jQuery 1.9.1+

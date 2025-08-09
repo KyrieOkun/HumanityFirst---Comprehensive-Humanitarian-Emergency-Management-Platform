@@ -1,7 +1,7 @@
 /**
  * jQuery UI Widget to enter weekly time rules using a 24/7 hours matrix
  *
- * @copyright 2020 (c) Sahana Software Foundation
+ * @copyright 2020 (c) White Nash
  * @license MIT
  */
 (function($, undefined) {

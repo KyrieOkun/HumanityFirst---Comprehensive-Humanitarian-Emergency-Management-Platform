@@ -3,7 +3,7 @@
 
     @requires: U{B{I{gluon}} <http://web2py.com>}
 
-    @copyright: (c) 2010-2021 Sahana Software Foundation
+    @copyright: (c) 2010-2021 White Nash
     @license: MIT
 
     Permission is hereby granted, free of charge, to any person

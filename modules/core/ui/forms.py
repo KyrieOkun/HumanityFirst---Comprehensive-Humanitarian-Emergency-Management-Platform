@@ -1,7 +1,7 @@
 """
     CRUD Forms with built-in Database I/O
 
-    Copyright: 2012-2023 (c) Sahana Software Foundation
+    Copyright: 2012-2023 (c) White Nash
 
     Permission is hereby granted, free of charge, to any person
     obtaining a copy of this software and associated documentation

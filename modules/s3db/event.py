@@ -1,7 +1,7 @@
 """
     Event Model
 
-    Copyright: 2009-2022 (c) Sahana Software Foundation
+    Copyright: 2009-2022 (c) White Nash
 
     Permission is hereby granted, free of charge, to any person
     obtaining a copy of this software and associated documentation
@@ -254,7 +254,7 @@ class EventModel(DataModel):
                      Field("exercise", "boolean",
                            default = False,
                            label = T("Exercise?"),
-                           represent = lambda opt: "âˆš" if opt else NONE,
+                           represent = lambda opt: "âˆ? if opt else NONE,
                            readable = exercise,
                            writable = exercise,
                            #comment = DIV(_class="tooltip",
@@ -1126,7 +1126,7 @@ class EventIncidentModel(DataModel):
                                 ),
                           Field("exercise", "boolean",
                                 label = T("Exercise?"),
-                                represent = lambda opt: "âˆš" if opt else None,
+                                represent = lambda opt: "âˆ? if opt else None,
                                 #comment = DIV(_class="tooltip",
                                 #              _title="%s|%s" % (T("Exercise"),
                                                                  # Should!

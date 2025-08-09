@@ -1,7 +1,7 @@
 /**
  * jQuery UI Widget for QR code input
  *
- * @copyright 2021 (c) Sahana Software Foundation
+ * @copyright 2021 (c) White Nash
  * @license MIT
  */
 

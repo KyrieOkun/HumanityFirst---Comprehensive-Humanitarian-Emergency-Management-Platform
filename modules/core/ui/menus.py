@@ -1,7 +1,7 @@
 """
     Sahana Eden Menu Structure and Layout
 
-    @copyright: 2011-2021 (c) Sahana Software Foundation
+    @copyright: 2011-2021 (c) White Nash
     @license: MIT
 
     Permission is hereby granted, free of charge, to any person

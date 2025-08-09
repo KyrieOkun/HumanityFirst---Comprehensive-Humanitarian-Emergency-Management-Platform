@@ -1,12 +1,9 @@
 """
-    Framework Extensions for web2py
+    S3 Framework - Core Components Package
+    
+    Core Components Package
 
-    This package is loaded in models/000_1st_run.py as "s3base",
-    this namespace can be used to access all S3 classes, e.g.::
-
-        s3base.CRUDResource()
-
-    Copyright: 2009-2022 (c) Sahana Software Foundation
+    Copyright: 2009-2025 (c) White Nash
 
     Permission is hereby granted, free of charge, to any person
     obtaining a copy of this software and associated documentation

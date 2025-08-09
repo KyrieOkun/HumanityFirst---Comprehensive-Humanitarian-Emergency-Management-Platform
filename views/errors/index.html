@@ -1,22 +1,23 @@
 {{extend 'layout.html'}}
-<div id='home' class='cf'>
-<div class='errors'>
-    <h2>{{=message}}</h2>
-    {{if response.custom_image:}}
-        <img src='/{{=app}}/static/img/{{=custom_image}}' align='left' />
-    {{else:}}
-        <img src='/{{=app}}/static/img/http_warning.png' align='left' />
-    {{pass}}
-    <br/>
-    <ul>
-        {{ for suggest in suggestions: }}
-            <li>{{=suggest}}</li>
-        {{pass}}
-        <li>Details - {{=details}}</li>
-        <li>You may want to <a href='http://eden.sahanafoundation.org/wiki/BugReportingGuidelines'>report a bug</a> about this issue.</li>
-        {{ if not res.ticket in (None,'None'): }}
-            <li>View ticket for this problem here - <a href='/{{=app}}/admin/ticket/{{=res.ticket}}' target='_blank'>{{=res.ticket}}</a></li>
-        {{pass}}
-    </ul>
+<h2>{{=T("System Error")}}</h2>
+<div class="alert alert-danger">
+<p>{{=T("An error has occurred in the system.")}}</p>
 </div>
-</div>
+
+<h4>{{=T("What to do next:")}}</h4>
+<ul>
+<li>{{=T("Try refreshing the page or going back to the previous page.")}}</li>
+<li>{{=T("Check if you have the necessary permissions to access this resource.")}}</li>
+<li>{{=T("Contact the system administrator at winfield.littel@proton.me if the problem persists.")}}</li>
+</ul>
+
+<h4>{{=T("Error Information")}}</h4>
+<p>{{=T("When reporting this error, please include:")}}</p>
+<ul>
+<li>{{=T("The exact time when the error occurred")}}</li>
+<li>{{=T("What you were trying to do when the error happened")}}</li>
+<li>{{=T("Your browser type and version")}}</li>
+<li>{{=T("Any error messages displayed")}}</li>
+</ul>
+
+<p><strong>{{=T("HumanityFirst Emergency Management Platform")}}</strong></p>

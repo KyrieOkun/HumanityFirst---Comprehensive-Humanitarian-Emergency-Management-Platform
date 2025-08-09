@@ -1,7 +1,7 @@
 """
     Cascading Deletion/Archiving of Records
 
-    :copyright: 2018-2021 (c) Sahana Software Foundation
+    :copyright: 2018-2021 (c) White Nash
     :license: MIT
 
     Permission is hereby granted, free of charge, to any person

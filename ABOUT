@@ -1,5 +1,9 @@
-Sahana Eden is an Emergency Development Environment - an Open Source framework to rapidly build powerful applications for Emergency Management.
+HumanityFirst is a comprehensive Emergency Development Environment - a personal humanitarian technology initiative developed and maintained by White Nash.
 
-It is a web based collaboration tool that addresses the common coordination problems during a disaster from finding missing people, managing aid, managing volunteers, tracking camps effectively between Government groups, the civil society (NGOs) and the victims themselves.
+This open-source platform addresses critical coordination challenges during humanitarian disasters, from finding missing people and managing aid distribution to coordinating volunteers and tracking displaced populations effectively between government agencies, NGOs, and affected communities.
 
-Please see the website for more details: http://eden.sahanafoundation.org/
+The journey of maintaining this complex humanitarian software has been marked by significant challenges: inheriting a massive codebase, managing sophisticated web2py architecture single-handedly, operating on volunteer time with limited resources, and continuously evolving to meet changing humanitarian needs. Despite these struggles, the commitment to serving those in crisis drives this work forward.
+
+This is a purely charitable initiative - developed out of passion for humanitarian causes with no commercial interests or profit motives. The goal is to ensure that life-saving emergency management technology remains accessible to all organizations serving communities in need.
+
+Contact: winfield.littel@proton.me

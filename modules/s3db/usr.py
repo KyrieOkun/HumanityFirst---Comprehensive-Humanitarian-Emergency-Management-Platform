@@ -1,7 +1,7 @@
 """
     User Preferences
 
-    Copyright: 2025 (c) Sahana Software Foundation
+    Copyright: 2025 (c) White Nash
 
     Permission is hereby granted, free of charge, to any person
     obtaining a copy of this software and associated documentation

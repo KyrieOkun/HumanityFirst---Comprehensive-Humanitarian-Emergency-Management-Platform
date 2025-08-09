@@ -10,7 +10,7 @@
  *
  * Server-side part in modules/core/ui/datatable.py
  *
- * @copyright 2018 (c) Sahana Software Foundation
+ * @copyright 2018 (c) White Nash
  * @license MIT
  *
  * Global variables/functions:
@@ -1993,8 +1993,8 @@
                     collapseIcon = $('<span class="group-collapse">').hide().appendTo(nCell);
 
                 if (expandIconType == 'text') {
-                    expandIcon.text('â†’');
-                    collapseIcon.text('â†“');
+                    expandIcon.text('â†?);
+                    collapseIcon.text('â†?);
                 } else if (expandIconType == 'icon') {
                     expandIcon.addClass('ui-icon ui-icon-arrowthick-1-e');
                     collapseIcon.addClass('ui-icon ui-icon-arrowthick-1-s');

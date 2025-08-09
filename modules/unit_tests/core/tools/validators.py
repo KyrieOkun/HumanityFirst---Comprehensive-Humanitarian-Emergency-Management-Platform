@@ -1,4 +1,4 @@
-ï»¿# Eden Unit Tests
+# Eden Unit Tests
 #
 # To run this script use:
 # python web2py.py -S eden -M -R applications/eden/modules/unit_tests/core/tools/validators.py
@@ -26,9 +26,9 @@ class ISLatTest(unittest.TestCase):
     """
         Latitude has to be in decimal degrees between -90 & 90
 
-        We can convert D/M/S or DÂ°M'S" format into decimal degrees:
+        We can convert D/M/S or D¡ãM'S" format into decimal degrees:
 
-          Zero padded, separated by spaces or : or (d, m, s) or (Â°, ', ") or run
+          Zero padded, separated by spaces or : or (d, m, s) or (¡ã, ', ") or run
           together and followed by cardinal direction initial (N,S). Only seconds
           can have decimals places. A decimal point with no trailing digits is invalid.
     """
@@ -56,7 +56,7 @@ class ISLatTest(unittest.TestCase):
         assertEqual(error, None)
         assertEqual(value, 40.3875)
 
-        value, error = validator(u"81Â°16'42.348\"N")
+        value, error = validator(u"81¡ã16'42.348\"N")
         assertEqual(error, None)
         assertEqual(value, 81.27843)
 
@@ -113,7 +113,7 @@ class ISLatTest(unittest.TestCase):
         value, error = validator(101)
         assertNotEqual(error, None)
 
-        value, error = validator(u"91Â°16'42.348\"N")
+        value, error = validator(u"91¡ã16'42.348\"N")
         assertNotEqual(error, None)
 
         value, error = validator("90 00 00.001 S")
@@ -129,9 +129,9 @@ class ISLatTest(unittest.TestCase):
 class ISLonTest(unittest.TestCase):
     """
         Longitude has to be in decimal degrees between -180 & 180
-        We can convert D/M/S or DÂ°M'S" format into decimal degrees:
+        We can convert D/M/S or D¡ãM'S" format into decimal degrees:
 
-          Zero padded, separated by spaces or : or (d, m, s) or (Â°, ', ") or run
+          Zero padded, separated by spaces or : or (d, m, s) or (¡ã, ', ") or run
           together and followed by cardinal direction initial (E,W). Only seconds
           can have decimals places. A decimal point with no trailing digits is invalid.
     """
@@ -159,7 +159,7 @@ class ISLonTest(unittest.TestCase):
         assertEqual(error, None)
         assertEqual(value, 99.3875)
 
-        value, error = validator(u"121Â°16'42.348\"E")
+        value, error = validator(u"121¡ã16'42.348\"E")
         assertEqual(error, None)
         assertEqual(value, 121.27843)
 
@@ -216,7 +216,7 @@ class ISLonTest(unittest.TestCase):
         value, error = validator(201)
         assertNotEqual(error, None)
 
-        value, error = validator(u"181Â°16'42.348\"E")
+        value, error = validator(u"181¡ã16'42.348\"E")
         assertNotEqual(error, None)
 
         value, error = validator("180 00 00.001 W")

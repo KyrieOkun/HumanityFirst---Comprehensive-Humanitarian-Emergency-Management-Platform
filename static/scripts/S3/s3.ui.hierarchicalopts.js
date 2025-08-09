@@ -1,7 +1,7 @@
 /**
  * jQuery UI HierarchicalOpts Widget for S3HierarchyWidget/HierarchyFilter
  *
- * @copyright 2013-2021 (c) Sahana Software Foundation
+ * @copyright 2013-2021 (c) White Nash
  * @license MIT
  *
  * requires jQuery 1.9.1+

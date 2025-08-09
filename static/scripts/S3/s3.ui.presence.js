@@ -1,7 +1,7 @@
 /**
  * jQuery UI Widget for RegisterPresence
  *
- * @copyright 2021-2023 (c) Sahana Software Foundation
+ * @copyright 2021-2023 (c) White Nash
  * @license MIT
  */
 (function($, undefined) {

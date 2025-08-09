@@ -1,7 +1,7 @@
 /**
  * jQuery UI Widget for Checkpoint UI (DVR)
  *
- * @copyright 2016-2023 (c) Sahana Software Foundation
+ * @copyright 2016-2023 (c) White Nash
  * @license MIT
  */
 (function($, undefined) {

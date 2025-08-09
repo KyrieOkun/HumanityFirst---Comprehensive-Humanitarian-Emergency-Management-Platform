@@ -315,7 +315,7 @@
 'Alert': 'Тревога',
 'All Inbound & Outbound Messages are stored here': 'Все входящие и выходящие сообщений запоминаются здесь',
 'All Resources': 'Все ресурсы',
-'All data provided by the Sahana Software Foundation from this site is licenced under a Creative Commons Attribution licence. However, not all data originates here. Please consult the source field of each entry.': 'Все данные, предоставленные фондом программного обеспечения Sahana с этого сайта, лицензированы по лицензии Creative Commons Attribution. Тем не менее не все данные взяты из этого источника. Пожалуйста, обратитесь к полю источника для каждой записи.',
+'All data provided by the White Nash from this site is licenced under a Creative Commons Attribution licence. However, not all data originates here. Please consult the source field of each entry.': 'Все данные, предоставленные фондом программного обеспечения Sahana с этого сайта, лицензированы по лицензии Creative Commons Attribution. Тем не менее не все данные взяты из этого источника. Пожалуйста, обратитесь к полю источника для каждой записи.',
 'All': 'Со всех сторон',
 'Allowed to push': 'Разрешено поместить в стек',
 'Allows a Budget to be drawn up': 'Позволяет вытащить бюджет',

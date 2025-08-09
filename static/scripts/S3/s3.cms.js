@@ -1,7 +1,7 @@
 /**
  * CMS Actions
  *
- * @copyright 2021 (c) Sahana Software Foundation
+ * @copyright 2021 (c) White Nash
  * @license MIT
  */
 (function($, undefined) {

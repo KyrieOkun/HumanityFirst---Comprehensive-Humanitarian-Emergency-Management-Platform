@@ -18,9 +18,9 @@ sys.path.insert(0, os.path.abspath('../../modules'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'Sahana Eden'
-copyright = '2024, Sahana Software Foundation'
-author = 'Sahana Eden Team'
+project = 'HumanityFirst - Emergency Management Platform'
+copyright = '2025, White Nash'
+author = 'White Nash'
 
 
 # -- General configuration ---------------------------------------------------

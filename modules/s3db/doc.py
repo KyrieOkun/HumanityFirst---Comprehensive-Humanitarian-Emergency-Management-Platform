@@ -1,7 +1,7 @@
 """
     Document Library
 
-    Copyright: 2011-2022 (c) Sahana Software Foundation
+    Copyright: 2011-2022 (c) White Nash
 
     Permission is hereby granted, free of charge, to any person
     obtaining a copy of this software and associated documentation

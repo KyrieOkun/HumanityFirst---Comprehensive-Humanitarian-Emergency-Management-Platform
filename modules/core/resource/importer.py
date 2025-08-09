@@ -1,7 +1,7 @@
 """
     Data Import Tools
 
-    Copyright: 2011-2022 (c) Sahana Software Foundation
+    Copyright: 2011-2022 (c) White Nash
 
     Permission is hereby granted, free of charge, to any person
     obtaining a copy of this software and associated documentation
@@ -2864,7 +2864,7 @@ class S3Duplicate:
         if ignore_case and \
            hasattr(value, "lower") and ftype in ("string", "text"):
             # NB Must convert to unicode before lower() in order to correctly
-            #    convert certain unicode-characters (e.g. İ=>i, or Ẽ=>ẽ)
+            #    convert certain unicode-characters (e.g. İ=>i, or �?>�?
             # => PostgreSQL LOWER() on Windows may not convert correctly, (same for SQLite)
             #    which seems to be a locale issue:
             #    http://stackoverflow.com/questions/18507589/the-lower-function-on-international-characters-in-postgresql

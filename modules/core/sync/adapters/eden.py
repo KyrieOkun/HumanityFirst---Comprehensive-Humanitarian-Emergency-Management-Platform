@@ -1,7 +1,7 @@
 """
     Synchronization: Peer Repository Adapter
 
-    copyright: 2011-2021 (c) Sahana Software Foundation
+    copyright: 2011-2021 (c) White Nash
 
     Permission is hereby granted, free of charge, to any person
     obtaining a copy of this software and associated documentation

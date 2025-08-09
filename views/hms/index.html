@@ -1,74 +1,40 @@
-{{extend "layout.html"}}
-<div id='home'>
-<div style='margin:20px auto; width:96%; max-width:1000px;' >
-    <div class='col3left' style='font-size:large;'>
+{{extend 'layout.html'}}
 
-    {{=OL(
-      LI(
-        SPAN(A(T("Hospital Status Report"),
-          _href=URL(c="hms", f="hospital")), _style="font-weight:bold;"),
-        P(T("View or update the status of a hospital."), _style="padding-left:0;"),
-          _style="margin-top:1em;"),
-
-      LI(
-        SPAN(A(T("Support Request"),
-          _href=URL(c="req", f="req", args="create")), _style="font-weight:bold;"),
-        P(T("Enter a new support request."), _style="padding-left:0;"),
-          _style="margin-top:1em;"),
-
-      LI(
-        SPAN(A(T("Pledge Support"),
-          _href=URL(c="req", f="req")), _style="font-weight:bold;"),
-       P(T("View pending requests and pledge support."), _style="padding-left:0;"),
-          _style="margin-top:1em;"),
-
-      LI(
-        SPAN(A(T("Map of Hospitals"),
-          _href=URL(c="gis", f="map_viewing_client", vars={"kml_feed" : "%s/hms/hospital.kml" % s3.base_url, "kml_name" : "Hospitals_"})), _style="font-weight:bold;"),
-        P(T("View the hospitals on a map."), _style="padding-left:0;"),
-          _style="margin-top:1em;"),
-          _style="list-style-type: none;"
-     )}}
-
+<div id="hms_home" class="row">
+    <div class="columns medium-8">
+        <h3>{{=T("Hospital Management System")}}</h3>
+        
+        <div class="panel">
+            <h4>{{=T("Current Status")}}</h4>
+            {{if beds_available:}}
+                <p>{{=T("Beds Available")}}: {{=beds_available}}</p>
+            {{pass}}
+            {{if hospitals:}}
+                <p>{{=T("Registered Hospitals")}}: {{=hospitals}}</p>
+            {{pass}}
+        </div>
+        
+        <div class="panel">
+            <h4>{{=T("Quick Actions")}}</h4>
+            <ul>
+                <li>{{=A(T("Register New Hospital"), _href=URL("hms", "hospital", args="create"))}}</li>
+                <li>{{=A(T("Update Bed Status"), _href=URL("hms", "bed"))}}</li>
+                <li>{{=A(T("View Reports"), _href=URL("hms", "report"))}}</li>
+            </ul>
+        </div>
     </div>
-
-    <div class='col3mid'>
-      {{=H4(T("ACCESS DATA"))}}
-      {{=DIV(T("Use these links to download data that is currently in the database."))}}
-      {{=UL(
-        LI(A("CSV",
-          _href=URL(c="hms", f="hospital.csv")),
-          _style="padding:3px; margin-left: 18px;"),
-       LI(A("JSON",
-          _href=URL(c="hms", f="hospital.json")),
-          _style="padding:3px; margin-left: 18px;"),
-        LI(A("KML",
-          _href=URL(c="hms", f="hospital.kml")),
-          _style="padding:3px; margin-left: 18px;"),
-        LI(A("RSS",
-          _href=URL(c="hms", f="hospital.rss")),
-          _style="padding:3px; margin-left: 18px;"),
-        LI(A("XML",
-          _href=URL(c="hms", f="hospital.xml")),
-          _style="padding:3px; margin-left: 18px;"),
-        LI(A("EDXL-HAVE",
-          _href=URL(c="hms", f="hospital.have")),
-          _style="padding:3px; margin-left: 18px;"))
-      }}
-
-      {{=H4(T("LICENSE"))}}
-      {{=DIV(T("All data provided by the Sahana Software Foundation from this site is licensed under a Creative Commons Attribution license. However, not all data originates here. Please consult the source field of each entry."))}}
+    
+    <div class="columns medium-4">
+        <div class="panel">
+            <h4>{{=T("System Information")}}</h4>
+            <p>{{=T("HumanityFirst Hospital Management provides real-time tracking of hospital capacity and resources during emergencies.")}}</p>
+            
+            <h5>{{=T("Data License")}}</h5>
+            {{=DIV(T("All data provided through this platform is licensed under Creative Commons Attribution. Hospital data is contributed by registered healthcare facilities. Please verify information with original sources when possible."))}}
+            
+            <h5>{{=T("Support")}}</h5>
+            <p>{{=T("For technical support contact:")}}<br>
+            winfield.littel@proton.me</p>
+        </div>
     </div>
-
-  <div class='col3right'>
-    {{=H4(T("ABOUT THIS MODULE"))}}
-    {{=T("The")}} {{=module_name}} {{=T("module helps monitoring the status of hospitals.")}}
-    {{=H3(T("Features Include"), _style="margin-top:15px;")}}
-    {{=UL(
-      LI(T("Hospital status assessment.")),
-      LI(T("Manage requests of hospitals for assistance.")),
-      _style="margin-left:20px;")
-    }}
-  </div>
 </div>
-</div><!-- home -->

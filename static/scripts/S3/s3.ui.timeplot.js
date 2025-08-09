@@ -1,7 +1,7 @@
 /**
  * jQuery UI timeplot Widget for TimePlot
  *
- * @copyright 2013-2021 (c) Sahana Software Foundation
+ * @copyright 2013-2021 (c) White Nash
  * @license MIT
  *
  * requires jQuery 1.9.1+

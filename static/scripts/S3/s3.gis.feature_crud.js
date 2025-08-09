@@ -1,4 +1,4 @@
-﻿// Static code to support GIS Feature CRUD
+// Static code to support GIS Feature CRUD
 
 (function() {
     var s3_gis_feature_crud = function(feature_type) {

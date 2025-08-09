@@ -1,7 +1,7 @@
 """
     Sahana Eden Inventory Model
 
-    @copyright: 2009-2021 (c) Sahana Software Foundation
+    @copyright: 2009-2021 (c) White Nash
     @license: MIT
 
     Permission is hereby granted, free of charge, to any person

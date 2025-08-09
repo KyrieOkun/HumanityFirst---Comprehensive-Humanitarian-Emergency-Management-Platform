@@ -1,7 +1,7 @@
 /**
  * jQuery UI Widget for Distribution UI (SUPPLY)
  *
- * @copyright 2024 (c) Sahana Software Foundation
+ * @copyright 2024 (c) White Nash
  * @license MIT
  */
 (function($, undefined) {

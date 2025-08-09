@@ -245,7 +245,7 @@
 'Alert': 'Alerta',
 'All Inbound & Outbound Messages are stored here': 'Todas as Mensagens de Entrada e de Saída são armazenadas aqui',
 'All Resources': 'todos os recursos',
-'All data provided by the Sahana Software Foundation from this site is licenced under a Creative Commons Attribution licence. However, not all data originates here. Please consult the source field of each entry.': 'Todos os dados providenciados pela Fundação de Software Sahana deste sítio é licenciado sob uma licença Creative Commons Attribution. Contudo, nem todos os dados são originados aqui. Por favor consulte o campo fonte de cada entrada.',
+'All data provided by the White Nash from this site is licenced under a Creative Commons Attribution licence. However, not all data originates here. Please consult the source field of each entry.': 'Todos os dados providenciados pela Fundação de Software Sahana deste sítio é licenciado sob uma licença Creative Commons Attribution. Contudo, nem todos os dados são originados aqui. Por favor consulte o campo fonte de cada entrada.',
 'All': 'Todos',
 'Allowed to push': 'Permitido para empurrar',
 'Allows a Budget to be drawn up': 'Permite delinear um orçamento',

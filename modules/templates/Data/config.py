@@ -64,9 +64,9 @@ def config(settings):
     #    ("el", "ελληνικά"),
     #    ("es", "Español"),
     #    ("it", "Italiano"),
-    #    ("ja", "日本語"),
-    #    ("km", "ភាសាខ្មែរ"),
-    #    ("ko", "한국어"),
+    #    ("ja", "日本�?),
+    #    ("km", "ភាសាខ្មែ�?),
+    #    ("ko", "한국�?),
     #    ("ne", "नेपाली"),          # Nepali
     #    ("prs", "دری"), # Dari
     #    ("ps", "پښتو"), # Pashto
@@ -78,7 +78,7 @@ def config(settings):
     #    ("tr", "Türkçe"),
     #    ("ur", "اردو"),
     #    ("vi", "Tiếng Việt"),
-    #    ("zh-cn", "中文 (简体)"),
+    #    ("zh-cn", "中文 (简�?"),
     #    ("zh-tw", "中文 (繁體)"),
     #])
     # Default language for Language Toolbar (& GIS Locations in future)

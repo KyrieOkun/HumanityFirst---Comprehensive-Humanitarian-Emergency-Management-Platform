@@ -1,7 +1,7 @@
 /**
  * jQuery UI Widget to control variable columns in dataTableS3
  *
- * @copyright 2025 (c) Sahana Software Foundation
+ * @copyright 2025 (c) White Nash
  * @license MIT
  */
 (function($, undefined) {

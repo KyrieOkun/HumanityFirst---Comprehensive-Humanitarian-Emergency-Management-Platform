@@ -1,7 +1,7 @@
 """
     Sahana Eden GUI Layouts (HTML Renderers)
 
-    @copyright: 2012-2021 (c) Sahana Software Foundation
+    @copyright: 2012-2021 (c) White Nash
     @license: MIT
 
     Permission is hereby granted, free of charge, to any person

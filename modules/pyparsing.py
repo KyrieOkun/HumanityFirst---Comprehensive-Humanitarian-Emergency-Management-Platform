@@ -6613,12 +6613,12 @@ if PY_3:
     setattr(pyparsing_unicode, "кириллица", pyparsing_unicode.Cyrillic)
     setattr(pyparsing_unicode, "Ελληνικά", pyparsing_unicode.Greek)
     setattr(pyparsing_unicode, "עִברִית", pyparsing_unicode.Hebrew)
-    setattr(pyparsing_unicode, "日本語", pyparsing_unicode.Japanese)
+    setattr(pyparsing_unicode, "日本�?, pyparsing_unicode.Japanese)
     setattr(pyparsing_unicode.Japanese, "漢字", pyparsing_unicode.Japanese.Kanji)
     setattr(pyparsing_unicode.Japanese, "カタカナ", pyparsing_unicode.Japanese.Katakana)
     setattr(pyparsing_unicode.Japanese, "ひらがな", pyparsing_unicode.Japanese.Hiragana)
-    setattr(pyparsing_unicode, "한국어", pyparsing_unicode.Korean)
-    setattr(pyparsing_unicode, "ไทย", pyparsing_unicode.Thai)
+    setattr(pyparsing_unicode, "한국�?, pyparsing_unicode.Korean)
+    setattr(pyparsing_unicode, "ไท�?, pyparsing_unicode.Thai)
     setattr(pyparsing_unicode, "देवनागरी", pyparsing_unicode.Devanagari)
 
 

@@ -1,7 +1,7 @@
 """
     S3 Query Construction
 
-    Copyright: 2009-2022 (c) Sahana Software Foundation
+    Copyright: 2009-2022 (c) White Nash
 
     Permission is hereby granted, free of charge, to any person
     obtaining a copy of this software and associated documentation
@@ -2551,20 +2551,20 @@ class S3AIRegex:
         "hĥ",
         "iìỉĩíịîï\u0131\u0130",
         "jĵ",
-        "kḱ",
+        "k�?,
         "lĺ",
-        "mḿ",
+        "m�?,
         "nñńǹ",
         "oôơòồờỏổởõỗỡóốớọộợ",
         "öøǿ",
-        "pṕ",
+        "p�?,
         "rŕ",
         "sśŝ",
-        "tẗ",
+        "t�?,
         "uưùừủửũữúứụựứüǘûǜ",
         "wẃŵẁ",
         "yỳỷỹýỵÿŷ",
-        "zźẑ",
+        "zź�?,
     )
 
     ESCAPE = ".*$^[](){}\\+?"

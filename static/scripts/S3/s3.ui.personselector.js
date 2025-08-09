@@ -1,7 +1,7 @@
 /**
  * jQuery UI Widget for PersonSelector
  *
- * @copyright 2017-2021 (c) Sahana Software Foundation
+ * @copyright 2017-2021 (c) White Nash
  * @license MIT
  *
  * requires jQuery 1.9.1+

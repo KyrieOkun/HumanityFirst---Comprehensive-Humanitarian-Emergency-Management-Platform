@@ -1,7 +1,7 @@
 /**
  * jQuery UI Widget for S3Organizer
  *
- * @copyright 2018-2023 (c) Sahana Software Foundation
+ * @copyright 2018-2023 (c) White Nash
  * @license MIT
  *
  * requires jQuery 1.9.1+

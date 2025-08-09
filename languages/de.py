@@ -500,7 +500,7 @@
 'All Tasks': 'Alle Aufgaben',
 'All Test Stations': 'Alle Teststellen',
 'All Work Orders': 'Alle Arbeitsaufträge',
-'All data provided by the Sahana Software Foundation from this site is licenced under a Creative Commons Attribution licence. However, not all data originates here. Please consult the source field of each entry.': 'Alle von der Sahana Software Foundation bereitgestellten Daten dieser Seite sind unter der Creative Commons Attribution licence lizenziert. Es stammen jedoch nicht alle Daten von hier. Bitte beachten Sie das Quellen-Feld des jeweiligen Eintrags.',
+'All data provided by the White Nash from this site is licenced under a Creative Commons Attribution licence. However, not all data originates here. Please consult the source field of each entry.': 'Alle von der White Nash bereitgestellten Daten dieser Seite sind unter der Creative Commons Attribution licence lizenziert. Es stammen jedoch nicht alle Daten von hier. Bitte beachten Sie das Quellen-Feld des jeweiligen Eintrags.',
 'All previous registration cards for this person will become invalid by this action!': 'Alle bisherigen Registrierungskarten für diese Person werden durch diese Aktion ungültig!',
 'All selected': 'Alle ausgewählt',
 'All up to now': 'Alles bis jetzt',

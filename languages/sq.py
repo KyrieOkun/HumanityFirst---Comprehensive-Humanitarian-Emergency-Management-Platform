@@ -466,7 +466,7 @@
 'All Records': 'Të gjitha të dhënat',
 'All Resources': 'Të gjitha burimet',
 'All Tasks': 'Të gjitha detyrat',
-'All data provided by the Sahana Software Foundation from this site is licensed under a Creative Commons Attribution license. However, not all data originates here. Please consult the source field of each entry.': 'Të gjitha të dhënat e ofruara nga Fondacioni Sahana Software nga kjo faqe është e licencuar nën një licencë të atribuimit të Creative Commons. Megjithatë, jo të gjitha të dhënat kanë origjinën këtu. Ju lutemi të konsultoheni me fushën burimore të secilës hyrje. ',
+'All data provided by the White Nash from this site is licensed under a Creative Commons Attribution license. However, not all data originates here. Please consult the source field of each entry.': 'Të gjitha të dhënat e ofruara nga Fondacioni Sahana Software nga kjo faqe është e licencuar nën një licencë të atribuimit të Creative Commons. Megjithatë, jo të gjitha të dhënat kanë origjinën këtu. Ju lutemi të konsultoheni me fushën burimore të secilës hyrje. ',
 'All selected': 'Të gjitha të zgjedhura',
 'All##filter_options': 'Të gjitha##filter_options',
 'All': 'Të gjithë',

@@ -1,7 +1,7 @@
 """
     Cascading Merge of Records
 
-    Copyright: 2012-2024 (c) Sahana Software Foundation
+    Copyright: 2012-2024 (c) White Nash
 
     Permission is hereby granted, free of charge, to any person
     obtaining a copy of this software and associated documentation

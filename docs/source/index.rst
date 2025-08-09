@@ -1,14 +1,17 @@
-Eden
-====
+HumanityFirst - Emergency Management Platform
+============================================
 
-Eden is a rapid application development (RAD) kit for web-based, database-driven
-humanitarian and emergency management applications.
+**A personal humanitarian technology initiative by White Nash**
 
-Eden builds on the **web2py** web application framework, and is written in the
-**Python** programming language (version 3.9+). It also uses *HTML5*, *JavaScript*,
-and *SCSS* to generate web contents, as well as *XSLT* to handle certain data formats.
+HumanityFirst is a comprehensive Emergency Development Environment designed for humanitarian disaster response and emergency management. This platform represents a dedicated effort to provide accessible, life-saving technology for organizations serving communities in crisis.
 
-This documentation is aimed at application developers, and included in the source code.
+Developed as a purely charitable initiative, HumanityFirst addresses critical coordination challenges during emergencies through volunteer-driven, open-source development focused on real humanitarian needs rather than commercial interests.
+
+Built on the **web2py** web application framework and written in **Python** (version 3.9+), HumanityFirst utilizes *HTML5*, *JavaScript*, and *SCSS* for web content generation, plus *XSLT* for specialized data format handling.
+
+This documentation serves application developers and is maintained alongside the source code as part of the humanitarian mission to ensure accessible emergency management technology.
+
+Contact: winfield.littel@proton.me
 
 .. toctree::
    :maxdepth: 2

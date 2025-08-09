@@ -1,7 +1,7 @@
 /**
  * jQuery UI Widget to edit permissions of a user role
  *
- * @copyright 2018-2021 (c) Sahana Software Foundation
+ * @copyright 2018-2021 (c) White Nash
  * @license MIT
  *
  * requires jQuery 1.9.1+
