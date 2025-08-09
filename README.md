@@ -9,7 +9,7 @@
 ## 🌍 **Project Vision: Technology Serving Humanity**
 
 **Developer & Maintainer:** White Nash  
-**Contact:** winfield.littel@proton.me  
+**Contact:** winfield.littel@aegisdynamics.xyz  
 **Project Type:** Open Source Humanitarian Technology Initiative  
 **Mission:** Providing life-saving emergency management technology to organizations worldwide, completely free of charge  
 
@@ -39,7 +39,7 @@ HumanityFirst is a comprehensive Emergency Development Environment designed to s
 - **Request Management**: Coordinate requests for aid between organizations
 - **Warehouse Management**: Optimize storage and distribution of humanitarian supplies
 
-#### 🗺️ **Geographic Information & Mapping**
+#### 🗺�?**Geographic Information & Mapping**
 - **Emergency Mapping**: Real-time situational awareness through advanced GIS integration
 - **Resource Location**: Map facilities, resources, and affected areas
 - **Coordination Zones**: Define and manage operational areas for different agencies
@@ -184,12 +184,12 @@ Additional documentation includes:
 ### **How to Support This Mission**
 
 **For Organizations Interested in Using HumanityFirst:**
-- Contact: winfield.littel@proton.me
+- Contact: winfield.littel@aegisdynamics.xyz
 - Free consultation and deployment assistance
 - Training and customization support
 
 **For Potential Sponsors:**
-- Contact: winfield.littel@proton.me
+- Contact: winfield.littel@aegisdynamics.xyz
 - Sponsorship packages available at all levels
 - Recognition in humanitarian technology community
 - Direct impact on global emergency response capabilities
@@ -238,6 +238,6 @@ HumanityFirst represents more than just software—it's a movement to democratiz
 
 ---
 
-*This project is maintained with dedication by White Nash (winfield.littel@proton.me) as a contribution to global humanitarian efforts. All support directly enables continued development and deployment of life-saving technology.*
+*This project is maintained with dedication by White Nash (winfield.littel@aegisdynamics.xyz) as a contribution to global humanitarian efforts. All support directly enables continued development and deployment of life-saving technology.*
 
-**🔗 For immediate support inquiries or sponsorship discussions, contact: winfield.littel@proton.me**
+**🔗 For immediate support inquiries or sponsorship discussions, contact: winfield.littel@aegisdynamics.xyz**

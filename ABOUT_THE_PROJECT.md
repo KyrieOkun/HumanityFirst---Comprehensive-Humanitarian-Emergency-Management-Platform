@@ -2,7 +2,7 @@
 
 ## 🌍 Saving Lives Through Technology
 
-**HumanityFirst** is a comprehensive humanitarian emergency management platform developed by White Nash (winfield.littel@proton.me) to help organizations coordinate disaster response and save lives worldwide.
+**HumanityFirst** is a comprehensive humanitarian emergency management platform developed by White Nash (winfield.littel@aegisdynamics.xyz) to help organizations coordinate disaster response and save lives worldwide.
 
 ## What We Do
 
@@ -47,7 +47,7 @@ To continue providing this critical technology to humanitarian organizations, we
 
 ## Get Involved
 
-**Organizations**: Contact winfield.littel@proton.me for free deployment assistance
+**Organizations**: Contact winfield.littel@aegisdynamics.xyz for free deployment assistance
 **Sponsors**: Reach out to discuss partnership opportunities  
 **Developers**: Contribute to this life-saving open source project
 
@@ -55,4 +55,4 @@ To continue providing this critical technology to humanitarian organizations, we
 
 **Every contribution directly enables humanitarian organizations to respond more effectively to emergencies and save more lives.**
 
-*Developed with dedication by White Nash | Contact: winfield.littel@proton.me* 
+*Developed with dedication by White Nash | Contact: winfield.littel@aegisdynamics.xyz* 

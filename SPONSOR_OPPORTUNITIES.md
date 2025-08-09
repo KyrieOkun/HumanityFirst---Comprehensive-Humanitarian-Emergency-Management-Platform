@@ -4,7 +4,7 @@
 
 **HumanityFirst** is a comprehensive humanitarian emergency management platform used by organizations worldwide to coordinate disaster response. By sponsoring this project, you directly enable humanitarian organizations to respond more effectively to emergencies and save more lives.
 
-**Project Maintainer:** White Nash (winfield.littel@proton.me)  
+**Project Maintainer:** White Nash (winfield.littel@aegisdynamics.xyz)  
 **Impact:** Global humanitarian technology serving organizations worldwide  
 **Cost to Users:** Completely FREE - pure humanitarian initiative  
 
@@ -141,7 +141,7 @@ White Nash has dedicated years to maintaining this complex humanitarian platform
 ### Ready to Support Life-Saving Technology?
 
 **Contact White Nash directly:**
-- **Email**: winfield.littel@proton.me
+- **Email**: winfield.littel@aegisdynamics.xyz
 - **Subject**: "HumanityFirst Sponsorship Inquiry"
 - **Response Time**: Within 24 hours for all sponsorship inquiries
 
@@ -171,4 +171,4 @@ Every humanitarian organization deserves access to life-saving technology. Your 
 
 *"The best way to find yourself is to lose yourself in the service of others." - Mahatma Gandhi*
 
-**Ready to support humanitarian technology that saves lives? Contact winfield.littel@proton.me today.** 
+**Ready to support humanitarian technology that saves lives? Contact winfield.littel@aegisdynamics.xyz today.** 

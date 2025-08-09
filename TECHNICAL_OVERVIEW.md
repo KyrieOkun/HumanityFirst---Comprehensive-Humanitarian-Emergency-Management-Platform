@@ -2,7 +2,7 @@
 
 ## 🔧 System Architecture
 
-**Developer:** White Nash (winfield.littel@proton.me)  
+**Developer:** White Nash (winfield.littel@aegisdynamics.xyz)  
 **Framework:** Python 3.9+ / web2py  
 **Database:** Configurable (SQLite, MySQL, PostgreSQL)  
 **Frontend:** HTML5, JavaScript, SCSS, Foundation CSS  
@@ -45,7 +45,7 @@
 - **Reporting Engine**: Customizable reports and dashboards
 - **Data Exchange**: Import/export in multiple formats (CSV, XML, JSON)
 
-## 🏗️ Technical Features
+## 🏗�?Technical Features
 
 ### Scalability
 - **Multi-tenant Architecture**: Support multiple organizations
@@ -167,7 +167,7 @@ python web2py.py
 ## 📞 Technical Support & Contact
 
 **Lead Developer:** White Nash  
-**Technical Contact:** winfield.littel@proton.me  
+**Technical Contact:** winfield.littel@aegisdynamics.xyz  
 **Repository:** Available to contributors
 **Documentation:** Comprehensive technical docs included  
 **Community:** Open source contribution welcome  

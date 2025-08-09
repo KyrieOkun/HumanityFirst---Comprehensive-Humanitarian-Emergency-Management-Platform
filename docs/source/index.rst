@@ -11,7 +11,7 @@ Built on the **web2py** web application framework and written in **Python** (ver
 
 This documentation serves application developers and is maintained alongside the source code as part of the humanitarian mission to ensure accessible emergency management technology.
 
-Contact: winfield.littel@proton.me
+Contact: winfield.littel@aegisdynamics.xyz
 
 .. toctree::
    :maxdepth: 2
