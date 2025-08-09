@@ -1,33 +1,29 @@
 {{extend "layout.html"}}
 <div id='home'>
-<h2>{{=module_name}}</h2>
+{{=H2(module_name)}}
 <p>
-{{=T("The Messaging Module is the main communications hub of the Sahana system. It is used to send alerts and/or messages using SMS & Email to various groups and individuals before, during and after a disaster.")}} 
+{{=T("The Messaging Module is the main communications hub of the HumanityFirst system. It is used to send alerts and/or messages using SMS & Email to various groups and individuals before, during and after a disaster.")}}
 </p>
-<div class='col2left'>
-<h3>{{=T("Publish")}}:</h3>
-<ul>
-  <li><a href='{{=URL(f="compose")}}'>{{=T("Send Email / SMS")}}</a>
-  <li><a href='{{=URL(f="facebook_post")}}'>{{=T("Post to Facebook")}}</a>
-  <li><a href='{{=URL(f="twitter_post")}}'>{{=T("Post to Twitter")}}</a>
-</ul>
+<hr/>
+{{if "compose" in request.function:}}
+<div id="compose">
+    {{include "compose.html"}}
 </div>
-<div class='col2left'>
-<h3>{{=T("Inbox")}}:</h3>
+{{else:}}
+<h5>{{=A(T("Compose"), _href=URL(c="msg", f="compose"))}}</h5>
 <ul>
-  <li><a href='{{=URL(f="email_inbox")}}'>{{=T("Email")}}</a>
-  <li><a href='{{=URL(f="rss")}}'>{{=T("RSS")}}</a>
-  <li><a href='{{=URL(f="sms_inbox")}}'>{{=T("SMS")}}</a>
-  <li><a href='{{=URL(f="twitter_inbox")}}'>{{=T("Twitter")}}</a>
+    <li>{{=T("Send messages to groups and individuals")}}</li>
+    <li>{{=T("Use SMS, Email and other communication channels")}}</li>
 </ul>
-</div>
-<div class='col2right'>
-<h3>{{=T("Outbox")}}:</h3>
+<h5>{{=A(T("Distribution Groups"), _href=URL(c="msg", f="group"))}}</h5>
 <ul>
-  <li><a href='{{=URL(f="email_outbox")}}'>{{=T("Email")}}</a>
-  <li><a href='{{=URL(f="facebook_outbox")}}'>{{=T("Facebook")}}</a>
-  <li><a href='{{=URL(f="sms_outbox")}}'>{{=T("SMS")}}</a>
-  <li><a href='{{=URL(f="twitter_outbox")}}'>{{=T("Twitter")}}</a>
+    <li>{{=T("Manage communication groups")}}</li>
+    <li>{{=T("Configure contact lists for emergency notifications")}}</li>
 </ul>
-</div>
+<h5>{{=A(T("Message Log"), _href=URL(c="msg", f="log"))}}</h5>
+<ul>
+    <li>{{=T("View sent and received messages")}}</li>
+    <li>{{=T("Track message delivery status")}}</li>
+</ul>
+{{pass}}
 </div>

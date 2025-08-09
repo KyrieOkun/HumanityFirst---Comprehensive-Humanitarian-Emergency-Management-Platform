@@ -319,7 +319,7 @@ def do_js(minimize,
     # Build S3.min.js
     #
     sourceDirectory = ".."
-    configFilename = "sahana.js.cfg"
+    configFilename = "humanityfirst.js.cfg"
     outputFilename = "S3.min.js"
 
     info("Merging Core libraries.")
@@ -346,25 +346,25 @@ def do_js(minimize,
     shutil.move(outputFilename, "../S3")
 
     # -------------------------------------------------------------------------
-    # Build multi-component S3 scripts (=sahana.js.*.cfg files)
+    # Build multi-component S3 scripts (=humanityfirst.js.*.cfg files)
     # - configured as:
     #   (title, config-file, output-file, closure-extra-params)
     #
     s3_script_sets = (
         ("calendar",
-         "sahana.js.calendar.cfg", "s3.ui.calendar.min.js", None),
+         "humanityfirst.js.calendar.cfg", "s3.ui.calendar.min.js", None),
         ("dataLists",
-         "sahana.js.dataLists.cfg", "s3.dataLists.min.js", None),
+         "humanityfirst.js.dataLists.cfg", "s3.dataLists.min.js", None),
         ("groupedItems",
-         "sahana.js.groupeditems.cfg", "s3.groupeditems.min.js", None),
+         "humanityfirst.js.groupeditems.cfg", "s3.groupeditems.min.js", None),
         ("ImageCrop",
-         "sahana.js.imageCrop.cfg", "s3.imagecrop.widget.min.js", None),
+         "humanityfirst.js.imageCrop.cfg", "s3.imagecrop.widget.min.js", None),
         ("ImageUpload",
-         "sahana.js.imageUpload.cfg", "s3.ui.imageupload.min.js", None),
+         "humanityfirst.js.imageUpload.cfg", "s3.ui.imageupload.min.js", None),
         ("JSTree",
-         "sahana.js.jstree.cfg", "s3.jstree.min.js", None),
+         "humanityfirst.js.jstree.cfg", "s3.jstree.min.js", None),
         ("Chat",
-         "sahana.js.chat.cfg", "s3.chat.min.js", "--strict_mode_input=false"),
+         "humanityfirst.js.chat.cfg", "s3.chat.min.js", "--strict_mode_input=false"),
         )
 
     for name, cfg_name, out_filename, extra_params in s3_script_sets:
@@ -462,12 +462,12 @@ def do_js(minimize,
         sourceDirectoryMGRS = "../gis"
         sourceDirectoryGeoExt = "../gis/GeoExt/lib"
         sourceDirectoryGxp = "../gis/gxp"
-        configFilenameOpenLayers = "sahana.js.ol.cfg"
-        configFilenameMGRS = "sahana.js.mgrs.cfg"
-        configFilenameGeoExt = "sahana.js.geoext.cfg"
-        configFilenameGxpMin = "sahana.js.gxp.cfg"
-        configFilenameGxp2 = "sahana.js.gxp2.cfg"
-        configFilenameGxpFull = "sahana.js.gxpfull.cfg"
+        configFilenameOpenLayers = "humanityfirst.js.ol.cfg"
+        configFilenameMGRS = "humanityfirst.js.mgrs.cfg"
+        configFilenameGeoExt = "humanityfirst.js.geoext.cfg"
+        configFilenameGxpMin = "humanityfirst.js.gxp.cfg"
+        configFilenameGxp2 = "humanityfirst.js.gxp2.cfg"
+        configFilenameGxpFull = "humanityfirst.js.gxpfull.cfg"
         outputFilenameOpenLayers = "OpenLayers.js"
         outputFilenameMGRS = "MGRS.min.js"
         outputFilenameGeoExt = "GeoExt.js"

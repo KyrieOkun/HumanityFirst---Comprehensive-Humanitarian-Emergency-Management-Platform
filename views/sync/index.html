@@ -2,7 +2,7 @@
 <div id='home'>
 {{=H2(module_name)}}
 <p>
-{{=T("The synchronization module allows the synchronization of data resources between Sahana Eden instances.")}}
+{{=T("The synchronization module allows the synchronization of data resources between HumanityFirst instances.")}}
 </p>
 <hr/>
 <h5>{{=A(T("Settings"), _href=URL(c="sync", f="config"))}}</h5>
@@ -21,37 +21,13 @@
 <ul>
     <li>{{=T("View all log entries")}}</li>
 </ul>
-{{if "synchronization" in request.function:}}
-<div id="synchronisation">
-    <div class="form-container">
-        <form action="{{=sync_url}}" method="post" enctype="multipart/form-data">
-            {{=hidden}}
-            <table>
-                {{if utcnow:}}
-                <tr>
-                    <td>{{=T("Time")}} UTC: </td>
-                    <td>{{=utcnow}}</td>
-                </tr>
-                {{if last_update:}}
-                <tr>
-                    <td>{{=T("Last Update")}} UTC: </td>
-                    <td>{{=last_update}}</td>
-                </tr>
-                {{pass}}
-                {{pass}}
-                <tr>
-                    <td>{{=T("Repository")}}: </td>
-                    <td>{{=repository}}</td>
-                </tr>
-            </table>
-            <h5>{{=T("Synchronization Guidelines")}}</h5>
-            <p>{{=T("Please refer to the system documentation for detailed synchronization procedures and best practices.")}}</p>
-            <p>{{=T("Contact support at winfield.littel@aegisdynamics.xyz for assistance with synchronization issues.")}}</p>
-            <div class="buttons">
-                {{=sync_submit}}
-            </div>
-        </form>
-    </div>
+
+{{# Support information #}}
+<div class="alert info">
+    <p><strong>{{=T("Synchronization Support")}}</strong></p>
+    <p>{{=T("For technical assistance with data synchronization between HumanityFirst instances, please refer to the system documentation or contact our support team.")}}</p>
+    <p>{{=T("Common synchronization scenarios include disaster response coordination, multi-site data sharing, and backup operations.")}}</p>
+    <p>{{=T("Contact support at winfield.littel@aegisdynamics.xyz for assistance with synchronization issues.")}}</p>
 </div>
-{{pass}}
+
 </div>
